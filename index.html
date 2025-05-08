@@ -1,0 +1,66 @@
+<style>
+    body {
+        text-align: center;
+        background-image:url(creative-hero.webp);
+
+    }
+
+    .game {
+        
+        color: darkgoldenrod;
+        
+        margin-top: 200px;
+        display: inline-block;
+        padding: 50px;
+
+    }
+
+    #btn{
+        border-radius: 50px;
+        padding: 5px;
+        width: 100px;
+        background-color:blueviolet;
+        color:black ;
+
+    }
+    #inputbox{
+        color: black;
+    }
+
+</style>
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess The Number From 1 to 5</title>
+
+</head>
+
+
+<body>
+    
+    <div class="game">
+        <h1>Guess The Number From 1 to 5</h1>
+
+        <input type="text" placeholder="Enter any Number" id="inputbox"><br><br>
+        <button id="btn" onclick="checktheNumber()">Check</button>
+        <p id="result">You are Right/ Wrong</p>
+        <P id="Guesscount">Available Guesses:3</P>
+    </div>
+
+
+    <script src="script.js"></script>
+
+
+
+
+</body>
+
+</html>
